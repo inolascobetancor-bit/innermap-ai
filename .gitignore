@@ -1,0 +1,52 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# InnerMap private data
+data/private/
+data/raw/
+data/samples/
+sessions/
+production/
+sandbox/
+runs/
+
+# Generated personal-memory files
+events.json
+people.json
+candidate_patterns.json
+patterns.json
+insights.json
+
+# Run / resolution reports
+master_run_report.json
+current_run_report.json
+current_people_resolution_report.json
+run_*.json
+people_resolution_*.json
+
+# Failure/debug outputs
+bad_*_output*.txt
+
+# Logs
+*.log
+logs/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
